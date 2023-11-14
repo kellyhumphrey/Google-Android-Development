@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">KHumphreyRestaurants</string>
+    <string name="recommendation_button">Click for Recommendation!</string>
+    <string name="restaurant_icon">Restaurant Icon</string>
+    <string name="name_hillstone">Hillstone</string>
+    <string name="location_hillstone">Santa Monica, CA</string>
+    <string name="type_hillstone">American</string>
+    <string name="cost_hillstone">$$$</string>
+    <string name="name_esperanza">Esperanza Cocina de la Playa</string>
+    <string name="location_esperanza">Manhattan Beach, CA</string>
+    <string name="type_esperanza">Mexican</string>
+    <string name="cost_esperanza">$$$</string>
+    <string name="name_simmzys">Simmzy\'s</string>
+    <string name="location_simmzys">Manhattan Beach, CA</string>
+    <string name="type_simmzys">American</string>
+    <string name="cost_simmzys">$$</string>
+    <string name="name_villa">La Villa Restaurant</string>
+    <string name="location_villa">Gardena, CA</string>
+    <string name="type_villa">Mexican</string>
+    <string name="cost_villa">$</string>
+    <string name="name_crazy_rock">Crazy Rock N\' Sushi</string>
+    <string name="location_crazy_rock">Gardena, CA</string>
+    <string name="type_crazy_rock">Sushi</string>
+    <string name="cost_crazy_rock">$$</string>
+    <string name="rec_hillstone">Get the French Dip!</string>
+    <string name="rec_esperanza">Order the most expensive thing on the menu!</string>
+    <string name="rec_simmzys">Hop the low fence for easy dine &amp; dash!</string>
+    <string name="rec_villa">I grew up on the Cheese Enchiladas!</string>
+    <string name="rec_crazy_rock">Drink yourself under the table!</string>
+</resources>

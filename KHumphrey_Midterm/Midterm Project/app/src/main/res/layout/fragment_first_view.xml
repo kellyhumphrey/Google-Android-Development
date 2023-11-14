@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nameTV"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".ui.main.FirstViewFragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/VGuide_35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.35" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/VGuide_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <ImageView
+        android:id="@+id/fir_tabletImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/content_description"
+        android:src="@drawable/tablet_1st"
+        app:layout_constraintBottom_toBottomOf="@id/HGuide_25"
+        app:layout_constraintEnd_toEndOf="@id/VGuide_35"
+        app:layout_constraintStart_toStartOf="@id/VGuide_5"
+        app:layout_constraintTop_toTopOf="@id/HGuide_10" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/HGuide_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/HGuide_25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <TextView
+        android:id="@+id/fir_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_5"
+        android:text="@string/name_label"
+        app:layout_constraintBottom_toTopOf="@id/fir_detailsButton"
+        app:layout_constraintStart_toEndOf="@id/VGuide_35"
+        app:layout_constraintTop_toTopOf="@id/HGuide_10" />
+
+    <TextView
+        android:id="@+id/fir_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        app:layout_constraintStart_toEndOf="@id/fir_name_label"
+        app:layout_constraintTop_toTopOf="@id/fir_name_label" />
+
+    <Button
+        android:id="@+id/fir_detailsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_5"
+        android:text="@string/see_more"
+        app:layout_constraintBottom_toTopOf="@id/HGuide_25"
+        app:layout_constraintStart_toEndOf="@id/VGuide_35"
+        app:layout_constraintTop_toBottomOf="@id/fir_name_label" />
+
+    <TextView
+        android:id="@+id/fir_iLike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/i_like"
+        app:drawableStartCompat="@drawable/outline_favorite_border_black_18"
+        app:layout_constraintBottom_toTopOf="@id/fir_detailsButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/fir_detailsButton"
+        app:layout_constraintTop_toBottomOf="@id/fir_detailsButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

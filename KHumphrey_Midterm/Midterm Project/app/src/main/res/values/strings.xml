@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">KHumphrey_Midterm</string>
+    <string name="content_description">One of multiple tablet images</string>
+    <string name="name">Android\'s Really Long Tablet Name</string>
+    <string name="name_label">Name: </string>
+    <string name="see_more">More Details</string>
+    <string name="i_like"> I like!</string>
+    <string name="tablet_details">Tablet Details:</string>
+    <string name="os_version">Tiramisu (OS 13)</string>
+    <string name="os_version_label">OS Version:</string>
+    <string name="dimensions">9.6x7.5in</string>
+    <string name="dimensions_label">Dimensions:</string>
+    <string name="weight">16 ounces</string>
+    <string name="weight_label">Weight</string>
+
+</resources>

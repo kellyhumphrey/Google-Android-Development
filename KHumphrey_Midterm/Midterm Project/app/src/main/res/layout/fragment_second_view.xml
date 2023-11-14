@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/second_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.SecondViewFragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/Sec_HGuide_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/sec_HGuide_50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/sec_VGuide_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/sec_VGuide_40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.4" />
+
+    <ImageView
+        android:id="@+id/sec_ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:src="@drawable/tablet_1st"
+        app:layout_constraintBottom_toTopOf="@id/sec_HGuide_50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Sec_HGuide_10" />
+
+    <TextView
+        android:id="@+id/sec_tablet_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tablet_details"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/sec_VGuide_5"
+        app:layout_constraintTop_toBottomOf="@id/sec_ImageView" />
+
+    <TextView
+        android:id="@+id/sec_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_label"
+        android:layout_marginTop="@dimen/margin_5"
+        app:layout_constraintStart_toStartOf="@id/sec_VGuide_5"
+        app:layout_constraintTop_toBottomOf="@id/sec_tablet_details"/>
+
+    <TextView
+        android:id="@+id/sec_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="textview"
+        android:layout_marginTop="@dimen/margin_5"
+        app:layout_constraintStart_toStartOf="@id/sec_VGuide_40"
+        app:layout_constraintTop_toBottomOf="@id/sec_tablet_details"/>
+
+    <TextView
+        android:id="@+id/sec_os_version_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/os_version_label"
+        android:layout_marginTop="@dimen/margin_5"
+        app:layout_constraintStart_toStartOf="@id/sec_VGuide_5"
+        app:layout_constraintTop_toBottomOf="@id/sec_name_label" />
+
+    <TextView
+        android:id="@+id/sec_os_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="textview"
+        android:layout_marginTop="@dimen/margin_5"
+        app:layout_constraintStart_toStartOf="@id/sec_VGuide_40"
+        app:layout_constraintTop_toBottomOf="@id/sec_name_label" />
+
+    <TextView
+        android:id="@+id/sec_dimensions_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dimensions_label"
+        android:layout_marginTop="@dimen/margin_5"
+        app:layout_constraintStart_toStartOf="@id/sec_VGuide_5"
+        app:layout_constraintTop_toBottomOf="@id/sec_os_version_label" />
+
+    <TextView
+        android:id="@+id/sec_dimensions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="textview"
+        android:layout_marginTop="@dimen/margin_5"
+        app:layout_constraintStart_toStartOf="@id/sec_VGuide_40"
+        app:layout_constraintTop_toBottomOf="@id/sec_os_version_label" />
+
+    <TextView
+        android:id="@+id/sec_weight_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weight_label"
+        android:layout_marginTop="@dimen/margin_5"
+        app:layout_constraintStart_toStartOf="@id/sec_VGuide_5"
+        app:layout_constraintTop_toBottomOf="@id/sec_dimensions_label" />
+
+    <TextView
+        android:id="@+id/sec_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="textview"
+        android:layout_marginTop="@dimen/margin_5"
+        app:layout_constraintStart_toStartOf="@id/sec_VGuide_40"
+        app:layout_constraintTop_toBottomOf="@id/sec_dimensions_label" />
+
+    <Button
+        android:id="@+id/sec_return_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sec_weight_label"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <CheckBox
+        android:id="@+id/sec_TabletCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/sec_return_button"
+        app:layout_constraintTop_toBottomOf="@id/sec_weight_label" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

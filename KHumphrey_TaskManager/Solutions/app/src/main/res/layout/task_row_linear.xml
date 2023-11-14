@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/ArchivedueDate"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:textSize="@dimen/DateFontSize"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ArchivedtaskTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_2"
+            android:paddingTop="@dimen/padding_5"
+            android:textSize="@dimen/TaskTitleFontSize"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/ArchivedshortDescription"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_5"
+            android:paddingTop="@dimen/padding_2"
+            android:textSize="@dimen/ShortDescriptionFontSize"/>
+    </LinearLayout>
+</LinearLayout>

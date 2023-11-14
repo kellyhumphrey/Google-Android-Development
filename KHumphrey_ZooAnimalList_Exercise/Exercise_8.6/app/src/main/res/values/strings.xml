@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Kelly Humphrey\'s Zoo Animals</string>
+    <string name="action_settings">Settings</string>
+    <string name="name">Name:</string>
+    <string name="location">Location:</string>
+    <string name="type">Type:</string>
+    <string name="mammal">Mammal</string>
+    <string name="bird">Bird</string>
+    <string name="reptile">Reptile</string>
+    <string name="save">Save</string>
+    <string name="hint_name">animal species name</string>
+    <string name="hint_location">zoo area</string>
+    <string-array name="zoo_areas">
+        <item>African Rocks</item>
+        <item>Asian Passage</item>
+        <item>Discovery Zone</item>
+        <item>Elephant Odyssey</item>
+        <item>Lost Forest</item>
+        <item>Northern Frontier</item>
+        <item>Outback</item>
+        <item>Panda Canyon</item>
+        <item>Reptile Mesa</item>
+        <item>Urban Jungle</item>
+    </string-array>
+    <string name="alert_title">Animal Name Missing</string>
+    <string name="alert_message">Please enter an animal name</string>
+</resources>
